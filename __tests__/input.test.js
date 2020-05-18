@@ -9,21 +9,21 @@ minimist.mockImplementation(() => {
 });
 
 describe('valid()', () => {
-    it('respects a proper object', () => {
-      const noteInput = new Input();
-      console.log(noteInput);
-      expect(noteInput.valid(noteInput.argvProp)).toBeTruthy();
-    });
+  it('respects a proper object', () => {
+    const noteInput = new Input();
+    console.log(noteInput);
+    expect(noteInput.valid(noteInput.argvProp)).toBeTruthy();
+  });
 
-    it('reject invalid object', () => {
-      const noteInput = new Input();
+  it('reject invalid object', () => {
+    const noteInput = new Input();
     //   console.log(noteInput);
 
     //   console.log(noteInput.argvProp);
-      noteInput.argvProp = undefined;
+    noteInput.argvProp = undefined;
     //   console.log(noteInput.argvProp);
     //   console.log(noteInput);
 
-      expect(noteInput.valid(undefined)).toBeFalsy();
-    });
+    expect(noteInput.valid(undefined)).toBeFalsy();
+  });
 });
