@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "dependencies": {
     "is-url": "^1.2.4",
     "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
