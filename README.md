@@ -6,11 +6,13 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-tommalieh/notes/pull/4)
+- [submission PR](https://github.com/401-advanced-javascript-tommalieh/notes/pull/5)
 
 ### Setup
 
 #### `.env` requirements (where applicable)
+
+`MONGODB_URI`
 
 #### How to initialize/run your application (where applicable)
 
@@ -24,7 +26,16 @@ or
 #### How to use your library (where applicable)
 
 `npm i minimist`
+`npm i dotenv`
+`npm i mongoose`
 
+#### Tests
+
+- run jest tests using:
+  `npm test`
+
+- rung lint test using:
+  `npm run lint`
 
 #### UML
 
