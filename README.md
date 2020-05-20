@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-tommalieh/notes/pull/5)
+- [submission PR](https://github.com/401-advanced-javascript-tommalieh/notes/pull/6)
 
 ### Setup
 
